@@ -13,7 +13,9 @@
     --dark-color: #172541;
     --light-color: #565872;
     --font-size-p: .8rem;
+    --btn-font: .8rem;
     --btn-padding: 8px 20px;
+    --pading-1: .5rem;
     --font-size-h1: 2rem;
     --font-size-h2: 1.8rem;
     --font-size-h4: 1.2rem;
@@ -63,7 +65,7 @@ a:hover {
 .btn {
     padding: var(--btn-padding);
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: var(--btn-font);
     border: none;
     cursor: pointer;
 }
@@ -155,7 +157,7 @@ a:hover {
 
 /* ---------------padding properties------------------  */
 .p-1 {
-    padding: .8rem;
+    padding: var(--pading-1);
 }
 
 .p-3 {
@@ -294,6 +296,7 @@ footer {
         --font-size-h2: 2.1rem;
         --section-padding: 2rem;
         --btn-padding: 10px 25px;
+        --pading-1: .625rem;
         --section-margin: 3rem;
     }
 }
@@ -304,6 +307,7 @@ footer {
         --font-size-h1: 3rem;
         --font-size-h2: 2.5rem;
         --font-size-h4: 1.5rem;
+    --btn-font: 1rem;
         --hamburger-toggle: none;
         --nav-items-toogle: flex;
         --section-padding: 4rem;
@@ -324,6 +328,7 @@ footer {
         --font-size-h4: 1.8rem;
         --section-padding: 5rem;
         --btn-padding: 12px 30px;
+        --pading-1: .75rem;
         --section-margin: 5rem;
         --profile-image-w: 4rem;
         --profile-image-h: 4rem;
